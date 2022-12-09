@@ -3,6 +3,7 @@ import React,  { useState, useEffect } from 'react';
 import { useSelector } from 'react-redux';
 import BooksItem from './BooksItem';
 import SearchBox from './SearchBox';
+import styles from './BooksList.module.css';
 
 const BooksList = () => {
   const { booksList, keyword} = useSelector((state) => state);
@@ -22,7 +23,7 @@ const BooksList = () => {
     <div>
       <SearchBox />
       <div>
-        권수 : {filteredList.length} 권
+        <div className={styles.booksLength}>권수 : {filteredList.length} 권</div>
         { filteredList.map((item)=>(
           <BooksItem item={item}/>
           // 서치 적용후 필터링 된 리스트

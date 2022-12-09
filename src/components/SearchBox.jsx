@@ -18,7 +18,7 @@ const SearchBox = () => {
           <Form.Control type="text" placeholder="책 이름을 입력해 주세요" onChange={(e)=>setKeyword(e.target.value)} className={styles.textBox}/>
         </Col>
         <Col xs="auto">
-        <Button variant="dark" type="submit">
+        <Button variant="warning" type="submit">
           찾기
         </Button>
         </Col>

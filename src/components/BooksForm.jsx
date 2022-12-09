@@ -27,7 +27,7 @@ const BooksForm = () => {
     <div>
       <Form onSubmit={addContact}>
         <Form.Group className="mb-3" controlId="formTitle">
-          <Form.Label>제목</Form.Label>
+          <Form.Label className={styles.title}>제목</Form.Label>
           <Form.Control type="text" placeholder="책 이름을 입력해 주세요" onChange={(e)=>setName(e.target.value)}
           value={name} className={styles.textBox}
           //onChange={getName} - 함수 따로만들지 않고 바로 적용
@@ -35,10 +35,10 @@ const BooksForm = () => {
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="formName">
-          <Form.Label>저자명</Form.Label>
+          <Form.Label className={styles.title}>저자명</Form.Label>
           <Form.Control type="text" placeholder="저자명을 입력해 주세요" onChange={(e)=>setWriter(e.target.value)} value={writer} className={styles.textBox}/>
         </Form.Group>
-        <Button variant="dark" type="submit">
+        <Button variant="warning" type="submit">
           추가
         </Button>
       </Form>

@@ -8,17 +8,17 @@ function App() {
   return (
     <div className='App'>
       <div className={styles.titleBox}>
-        <img src="https://thumbs.dreamstime.com/b/vector-pixel-art-computer-isolated-cartoon-162928409.jpg" alt="" />
-        <h1>My Library</h1>
+        <img src="https://o.remove.bg/downloads/37201817-e464-40ca-a645-50187a16e087/11111111111111-removebg-preview.png" alt="" />
+        <h1 className={styles.title}>My Library</h1>
       </div>
 
       <Container>
         <Row>
-          <Col>
+          <Col sm="6">
             <BooksForm />
           </Col>
-          <Col>
-            <BooksList />
+          <Col sm="6">
+            <BooksList/>
           </Col>
         </Row>
       </Container>
