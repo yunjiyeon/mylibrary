@@ -1,0 +1,12 @@
+Form{
+  font-family: 'DungGeunMo';
+}
+
+.textBox{ 
+  box-shadow:  2px 2px 3px rgba(0,0,0,0.5);
+  border: none;
+}
+.textBox:focus {
+  border: none;
+  box-shadow: inset -2px -2px 3px rgba(0,0,0,0.5);
+}

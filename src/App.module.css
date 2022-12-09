@@ -1,0 +1,27 @@
+/* body{
+  width: 100vw;
+  height: 100vh;
+  background-image: url(https://p4.wallpaperbetter.com/wallpaper/15/819/670/pixel-cloud-game-application-wallpaper-preview.jpg);
+  background-size: cover;
+} */
+
+@font-face {
+  font-family: 'DungGeunMo';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.titleBox{
+  font-family: 'DungGeunMo';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.titleBox img {
+  width: 70px;
+  margin-right: 20px;
+}

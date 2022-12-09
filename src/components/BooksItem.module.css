@@ -1,0 +1,20 @@
+.box {
+  font-family: 'DungGeunMo';
+  border-radius: 7px;
+  padding: 12px;
+  margin: 5px 0;
+  box-shadow:  2px 2px 3px rgba(0,0,0,0.3 );
+  border: none;
+  background: #ffffff;
+}
+.box img {
+    width: 50px;
+}
+.text {
+  padding: 16px 0 0 20px;
+}
+
+h5, p {
+  line-height: 1;
+  margin-bottom: 5px;
+}
